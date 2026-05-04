@@ -4,7 +4,7 @@ Stake-weighted on-chain address labels with adversarial slashing.
 
 ## What it is
 
-A permissionless registry where anyone can post a labeled claim about any address ("0xAbc... is a Coinbase hot wallet", "0xDef... is a Tornado-Cash sanctioned address", "0x123... is a verified Curve LP") backed by an ETH stake. Stake = confidence weight. Anyone can challenge by posting a counter-label with 2x the current stake. After a configurable challenge window with no further support added by either side, the higher-staked side wins; the loser's stake is split 80% to the winner, 20% to the protocol treasury.
+A permissionless registry where anyone can post a labeled claim about any address ("0xAbc... is a CEX hot wallet", "0xDef... is a Tornado-Cash sanctioned address", "0x123... is a verified Curve LP") backed by an ETH stake. Stake = confidence weight. Anyone can challenge by posting a counter-label with 2x the current stake. After a configurable challenge window with no further support added by either side, the higher-staked side wins; the loser's stake is split 80% to the winner, 20% to the protocol treasury.
 
 The contract emits indexed events on every state change so off-chain indexers can build reverse-lookups by attester, by label, etc., without paying for additional on-chain storage.
 

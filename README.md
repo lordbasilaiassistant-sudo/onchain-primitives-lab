@@ -59,7 +59,7 @@ ABIs ship in `out/<Contract>.sol/<Contract>.json` after `forge build`. Treasury 
 
 ## Built on
 
-- [**Base**](https://base.org) — the Ethereum L2 this is deployed on (incubated by [Coinbase](https://www.coinbase.com)).
+- [**Base**](https://base.org) — the Ethereum L2 this is deployed on (open-source, OP Stack).
 - [**Foundry**](https://getfoundry.sh) — Solidity toolchain for build, test, and deploy.
 - [**Basescan**](https://basescan.org) — block explorer used for verification.
 - [**EIP-5564**](https://eips.ethereum.org/EIPS/eip-5564) — stealth address standard implemented by `StealthAddressRegistry`.

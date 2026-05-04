@@ -37,7 +37,7 @@ contract AddressTaggingMarketTest is Test {
 
     function test_AttestStoresLabelAndStake() public {
         vm.prank(alice);
-        uint256 id = market.attest{value: 1 ether}(subject, "exchange:coinbase");
+        uint256 id = market.attest{value: 1 ether}(subject, "exchange:kraken");
 
         assertEq(id, 0);
         assertEq(market.totalAttestations(), 1);
@@ -65,7 +65,7 @@ contract AddressTaggingMarketTest is Test {
         assertFalse(challenged);
         assertFalse(resolved);
         assertFalse(attesterWon);
-        assertEq(label, "exchange:coinbase");
+        assertEq(label, "exchange:kraken");
         assertEq(counterLabel, "");
 
         assertEq(TREASURY.balance, 0.01 ether);
