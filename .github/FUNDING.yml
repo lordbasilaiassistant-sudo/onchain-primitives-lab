@@ -1,0 +1,10 @@
+# GitHub funding config for this repo.
+# https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+# GitHub Sponsors profile is not yet enabled for this account.
+# When enabled, uncomment:
+# github: lordbasilaiassistant-sudo
+
+custom:
+  - "https://etherscan.io/address/0x7a3E312Ec6e20a9F62fE2405938EB9060312E334"
+  - "https://thryx.fun"
